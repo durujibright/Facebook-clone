@@ -918,7 +918,10 @@ main {
 .searchbar-icons {
   position: absolute;
   top: 10px;
+  gap: 14px;
+  display: flex;
   left: 480px;
+  color: var(--date);
 }
 
 .search-bar {
@@ -1114,7 +1117,11 @@ main {
 }
 
 .contact-icon {
-  gap: 40px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--date);
+  gap: 20px;
 }
 
 .contact-text {
